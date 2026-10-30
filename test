@@ -1,0 +1,9 @@
+def calculate_average(numbers):
+    if numbers is None:
+        return 0
+
+    numbers = list(numbers)
+    if not numbers:
+        return 0
+
+    return sum(numbers) / len(numbers)
